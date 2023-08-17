@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const F=JSON.parse('{"title":"快速搭建个人博客网站","description":"","frontmatter":{},"headers":[],"relativePath":"Nginx/进阶篇.md","filePath":"Nginx/进阶篇.md"}'),p={name:"Nginx/进阶篇.md"},o=l("",506),e=[o];function t(c,r,D,y,C,A){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{F as __pageData,u as default};

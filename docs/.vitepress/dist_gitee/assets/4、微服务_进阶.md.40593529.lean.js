@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const A=JSON.parse('{"title":"架构理论","description":"","frontmatter":{},"headers":[],"relativePath":"4、微服务/进阶.md","filePath":"4、微服务/进阶.md"}'),p={name:"4、微服务/进阶.md"},o=l("",1280),e=[o];function t(c,r,i,y,D,F){return a(),n("div",null,e)}const g=s(p,[["render",t]]);export{A as __pageData,g as default};

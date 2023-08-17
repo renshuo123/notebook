@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const C=JSON.parse('{"title":"高并发，你真的理解透彻了吗","description":"","frontmatter":{},"headers":[],"relativePath":"三高/高并发.md","filePath":"三高/高并发.md"}'),p={name:"三高/高并发.md"},o=l("",1158),e=[o];function t(c,r,i,D,y,F){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};

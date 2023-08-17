@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const i=JSON.parse('{"title":"Spring事务","description":"","frontmatter":{},"headers":[],"relativePath":"SSM/Spring.md","filePath":"SSM/Spring.md"}'),p={name:"SSM/Spring.md"},o=l("",1173),e=[o];function t(c,r,y,D,A,C){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{i as __pageData,d as default};

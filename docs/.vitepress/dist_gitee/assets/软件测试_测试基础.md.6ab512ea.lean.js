@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const C=JSON.parse('{"title":"软件测试基础","description":"","frontmatter":{},"headers":[],"relativePath":"软件测试/测试基础.md","filePath":"软件测试/测试基础.md"}'),p={name:"软件测试/测试基础.md"},o=l("",454),e=[o];function t(c,r,i,y,D,F){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};

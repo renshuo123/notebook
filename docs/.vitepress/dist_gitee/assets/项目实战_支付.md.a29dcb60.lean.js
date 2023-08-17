@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,S as l}from"./chunks/framework.b12503b9.js";const i=JSON.parse('{"title":"支付安全","description":"","frontmatter":{},"headers":[],"relativePath":"项目实战/支付.md","filePath":"项目实战/支付.md"}'),p={name:"项目实战/支付.md"},o=l("",388),e=[o];function t(c,r,D,y,F,C){return n(),a("div",null,e)}const u=s(p,[["render",t]]);export{i as __pageData,u as default};
