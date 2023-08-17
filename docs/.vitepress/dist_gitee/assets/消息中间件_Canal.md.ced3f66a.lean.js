@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const i=JSON.parse('{"title":"Canal入门","description":"","frontmatter":{},"headers":[],"relativePath":"消息中间件/Canal.md","filePath":"消息中间件/Canal.md"}'),p={name:"消息中间件/Canal.md"},o=l("",360),e=[o];function t(c,r,D,y,C,F){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{i as __pageData,d as default};

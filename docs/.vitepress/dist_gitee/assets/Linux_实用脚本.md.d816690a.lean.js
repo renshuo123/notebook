@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,S as l}from"./chunks/framework.b12503b9.js";const u=JSON.parse('{"title":"常用 Shell 脚本","description":"","frontmatter":{},"headers":[],"relativePath":"Linux/实用脚本.md","filePath":"Linux/实用脚本.md"}'),p={name:"Linux/实用脚本.md"},e=l("",83),o=[e];function c(t,i,C,A,r,y){return n(),a("div",null,o)}const d=s(p,[["render",c]]);export{u as __pageData,d as default};

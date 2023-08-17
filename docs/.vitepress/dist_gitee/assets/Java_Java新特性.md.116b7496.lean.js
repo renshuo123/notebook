@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const i=JSON.parse('{"title":"类型推断","description":"","frontmatter":{},"headers":[],"relativePath":"Java/Java新特性.md","filePath":"Java/Java新特性.md"}'),p={name:"Java/Java新特性.md"},o=l("",425),t=[o];function e(c,r,D,y,F,A){return a(),n("div",null,t)}const u=s(p,[["render",e]]);export{i as __pageData,u as default};

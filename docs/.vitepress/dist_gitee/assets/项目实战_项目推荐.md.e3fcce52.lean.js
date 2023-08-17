@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as e,S as o}from"./chunks/framework.b12503b9.js";const u=JSON.parse('{"title":"超好看Dashboard模板","description":"","frontmatter":{},"headers":[],"relativePath":"项目实战/项目推荐.md","filePath":"项目实战/项目推荐.md"}'),p={name:"项目实战/项目推荐.md"},n=o("",520),i=[n];function s(l,r,m,c,h,b){return t(),e("div",null,i)}const d=a(p,[["render",s]]);export{u as __pageData,d as default};

@@ -1,1 +1,0 @@
-import{_ as e,o,c as a,S as p}from"./chunks/framework.b12503b9.js";const u=JSON.parse('{"title":"高可用⭐","description":"","frontmatter":{},"headers":[],"relativePath":"三高/高可用.md","filePath":"三高/高可用.md"}'),i={name:"三高/高可用.md"},l=p("",586),t=[l];function s(r,n,c,d,g,m){return o(),a("div",null,t)}const b=e(i,[["render",s]]);export{u as __pageData,b as default};

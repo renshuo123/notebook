@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const d=JSON.parse('{"title":"Kubernetes架构","description":"","frontmatter":{},"headers":[],"relativePath":"云原生/K8S.md","filePath":"云原生/K8S.md"}'),p={name:"云原生/K8S.md"},e=l("",489),o=[e];function t(c,r,i,C,y,A){return a(),n("div",null,o)}const u=s(p,[["render",t]]);export{d as __pageData,u as default};

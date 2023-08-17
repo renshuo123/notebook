@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as i,S as t}from"./chunks/framework.b12503b9.js";const b=JSON.parse('{"title":"基本配置","description":"","frontmatter":{},"headers":[],"relativePath":"IDEA/VS Code.md","filePath":"IDEA/VS Code.md"}'),p={name:"IDEA/VS Code.md"},o=t("",634),s=[o];function n(l,c,m,r,h,u){return e(),i("div",null,s)}const x=a(p,[["render",n]]);export{b as __pageData,x as default};

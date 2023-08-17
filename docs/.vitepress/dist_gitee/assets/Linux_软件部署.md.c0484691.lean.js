@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,S as l}from"./chunks/framework.b12503b9.js";const F=JSON.parse('{"title":"前言","description":"","frontmatter":{},"headers":[],"relativePath":"Linux/软件部署.md","filePath":"Linux/软件部署.md"}'),p={name:"Linux/软件部署.md"},o=l("",907),e=[o];function t(c,r,i,y,C,D){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{F as __pageData,d as default};

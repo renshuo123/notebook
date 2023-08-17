@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as o,S as e}from"./chunks/framework.b12503b9.js";const d=JSON.parse('{"title":"GPT","description":"","frontmatter":{},"headers":[],"relativePath":"5、运维/ChatGPT.md","filePath":"5、运维/ChatGPT.md"}'),s={name:"5、运维/ChatGPT.md"},l=e("",1691),n=[l];function p(i,c,r,m,h,u){return t(),o("div",null,n)}const g=a(s,[["render",p]]);export{d as __pageData,g as default};

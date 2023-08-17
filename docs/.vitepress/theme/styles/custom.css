@@ -1,0 +1,9 @@
+/* 自定义图片样式 */
+.custom-image-class {
+    width: 500px; /* 设置图片宽度 */
+    height: auto; /* 自动调整高度 */
+    border: 2px solid #ccc; /* 添加边框 */
+    border-radius: 5px; /* 添加圆角边框 */
+    margin: 20px auto; /* 设置图片外边距 */
+    display: block; /* 将图片设为块级元素，居中显示 */
+}
