@@ -1,5 +1,5 @@
 {
-  "index_name": "notebook_temp",
+  "index_name": "notebook",
   "start_urls": ["https://renshuo123.github.io/"],
   "rateLimit": 8,
   "maxDepth": 10,
