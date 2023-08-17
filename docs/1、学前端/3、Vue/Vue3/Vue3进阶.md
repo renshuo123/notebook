@@ -2277,7 +2277,6 @@ export default {
 其次，在组件中不能直接 $t('main.message') 使用，该种方式确定了翻译对象，而“msg”的翻译对象不确定，有可能是“message”、“display”甚至更多，于是，我使用了模板字符串，实现了值动态变化自动翻译的效果。
 
 ```vue
-<p>{{$t(`main.${msg}`)}}</p>
  
 // 当 msg 为 "message" 时，为 $t('main.message')
 // 当 msg 为 "display" 时，为 $t('main.display')
