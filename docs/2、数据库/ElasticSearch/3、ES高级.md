@@ -2753,13 +2753,7 @@ filter {
 date {
         match => ["timestamp", "dd/MMM/yyyy:HH:mm:ss Z"]
     }
-mutate {
-          convert => [ "response","float" ]
-           rename => { "response" => "response_new" }   
-           gsub => ["referrer","\"",""]          
-           split => ["clientip", "."]
-        }
-}
+
 output {
     stdout {
         codec => "rubydebug"
@@ -2842,38 +2836,6 @@ nginx.log内容
 
 在D:\logstash-7.15.1\config里创建test5.conf，填入如下内容
 
-```js
-input {
-    file {
-        path => ["D:/logstash-7.15.1/logs/nginx.log"]
-        start_position => "beginning"
-    }
-}
-
-filter {
-    grok {
-        match => { "message" => "%{IP:clientip}\ \[%{HTTPDATE:timestamp}\]\ %{QS:referrer}\ %{NUMBER:response}\ %{NUMBER:bytes}" }
-        remove_field => [ "message" ]
-   }
-date {
-        match => ["timestamp", "dd/MMM/yyyy:HH:mm:ss Z"]
-    }
-mutate {
-          convert => [ "response","float" ]
-           rename => { "response" => "response_new" }   
-           gsub => ["referrer","\"",""]          
-           split => ["clientip", "."]
-        }
-}
-
-output {
-    elasticsearch {
-        hosts => ["127.0.0.1:9200"]
-        index => "logstash-%{+YYYY.MM.dd}"       
-    }
-}
-```
-
 启动
 
 ```
@@ -2928,7 +2890,6 @@ Dashboard
 
 ## 使用模板数据指导绘图
 
-点击左上角的elastic，进入到此页面。看首先添加您的数据一栏，点击试用样例数据，可以看到很多模板数据以及绘图。
 
 <img src="https://edu-8673.oss-cn-beijing.aliyuncs.com/img/image-20211031134424849.png" alt="image-20211031134424849" style="zoom: 67%;" />
 
@@ -3307,9 +3268,6 @@ docker pull kibana:7.7.1
 
 获取elasticsearch容器 ip
 
-```
-docker inspect --format '{{ .NetworkSettings.IPAddress }}' es
-```
 
 结果：172.17.0.2
 
